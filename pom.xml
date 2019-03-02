@@ -9,8 +9,19 @@
   <version>1.0-SNAPSHOT</version>
 
   <name>my-archetype</name>
+  <developers>
+    <developer>
+      <name>王凯</name>
+    </developer>
+  </developers>
+  <contributors>
+    <contributor>
+      <email>1034832478@qq.com</email>
+      <organization>无组织</organization>
+    </contributor>
+  </contributors>
   <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <url>http://home.hyywk.top</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -28,6 +39,8 @@
   </dependencies>
 
   <build>
+    <defaultGoal>install</defaultGoal>
+
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
